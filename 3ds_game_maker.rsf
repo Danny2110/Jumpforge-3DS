@@ -1,0 +1,40 @@
+BasicInfo:
+  Title               : "3DS Game Maker"
+  CompanyCode         : "00"
+  ProductCode         : "CTR-P-GMKR"
+  ContentType         : Application
+  Logo                : Nintendo
+
+TitleInfo:
+  UniqueId            : 0xF482
+  Category            : Application
+
+Option:
+  EnableCompress      : True
+  FreeProductCode     : True
+  UseOnSD             : True
+  MediaFootPadding    : True
+  EnableCrypt         : False
+
+AccessControlInfo:
+  CoreVersion         : 2
+  DescVersion         : 2
+  MemoryType          : Application
+  SystemModeExt       : Legacy
+  Priority            : 24
+  IdealProcessor      : 0
+  AffinityMask        : 1
+  HandleTableSize     : 0x200
+  DisableDebug        : False
+  CanWriteSharedPage  : True
+  CanUsePrivilegedPriority : False
+  CanUseNonAlphabetAndNumber : True
+  PermitMainFunctionArgument : True
+  RunnableOnSleep     : False
+  SpecialMemoryArrange: False
+  UseOtherVariationSaveData: False
+  CanAccessCore2      : False
+
+SystemControlInfo:
+  SaveDataSize        : 128KB
+  JumpId              : 0x000400000FF40A00
