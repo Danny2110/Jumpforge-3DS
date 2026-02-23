@@ -1,0 +1,22 @@
+# Build artifacts
+*.o
+*.elf
+*.3dsx
+*.smdh
+*.map
+*.lst
+*.cia
+
+# Build/output dirs
+build/
+out/
+.deps/
+
+# macOS
+.DS_Store
+
+# Temp/review assets
+tmp_review/
+
+# Audio/export runtime output on SD dump mirrors
+sdmc/
