@@ -1,61 +1,33 @@
-# JumpForge 3DS
+ Mario-Builder-64-3DS (Latest)
+  Mario Builder 64 dedicated launcher for Nintendo 3DS (Old/New 3DS), built on DaedalusX64 with direct autoboot into Mario Builder 64 v1.1.z64.
 
-JumpForge 3DS is a Nintendo 3DS homebrew game-making toolkit with a touch-first level editor, sprite/animation tools, enemy setup, and instant platformer test play.
+  Features
 
-## Features
+  - Single app icon/title (MB64.cia / MB64.3dsx)
+  - Autoboots directly into MB64 (no ROM picker)
+  - Separate title ID for clean install
+  - Preconfigured SD structure under /3ds/MB64
 
-- Touch-driven level editor with tile layers, undo/redo, and zoom
-- Sprite editor with drawing tools, frame timeline, and page workflow
-- Animation studio with playback controls and export helpers
-- Enemy maker with behavior and stat tuning
-- One-button platformer test mode (move/jump/play loop)
-- Save slots with backup recovery support
+  SD Paths
 
-## Why This Project
+  - ROM: /3ds/MB64/Roms/Mario Builder 64 v1.1.z64
+  - CIA for FBI install: /cias/MB64.cia
 
-JumpForge 3DS is designed for people who want to prototype 2D platformer ideas directly on Nintendo 3DS hardware using homebrew tools.
+  Notes
 
-## Tech Stack
+  - Emulator-based launcher (not a native MB64 recompile)
+  - Works on Old 3DS and New 3DS
+  - Better performance on New 3DS
 
-- C++17
-- devkitPro / devkitARM
-- libctru
-- makerom / smdhtool / 3dsxtool
+  ———
 
-## Build
+  3DS Maker v2.0 (Pre-release)
+  JumpForge 3DS is a Nintendo 3DS homebrew game-making toolkit with a touch-first level editor, multi-page sprite/animation studio, enemy tuning, and instant
+  platformer test play.
 
-```bash
-cd 3ds-game-maker
-make
-```
+  ———
 
-Output files:
-
-- `3ds_game_maker.elf`
-- `3ds_game_maker.3dsx`
-
-## Build CIA
-
-```bash
-mkdir -p out
-makerom -f cia \
-  -o out/3ds_game_maker.cia \
-  -elf 3ds_game_maker.elf \
-  -rsf 3ds_game_maker.rsf \
-  -desc app:2
-```
-
-## Controls (Quick)
-
-- `PLAY` on start menu launches platformer test mode
-- Platformer: `Left/Right` move, `A` jump, `B` dash
-- `SELECT` returns to menu
-
-## Installation
-
-- Homebrew Launcher: copy `.3dsx` to SD card and launch
-- CFW/Home Menu: install `.cia` using your preferred installer
-
-## Project Status
-
-Active prototype. Core systems are playable and expanding
+  JumpForge 3DS (Pre-release)
+  JumpForge 3DS is a Nintendo 3DS homebrew game-making toolkit with a touch-first level editor, multi-page sprite/animation studio, enemy tuning, and instant
+  platformer test play.
+  This build includes additional bug fixes.
