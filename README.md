@@ -21,7 +21,7 @@
 
   ———
 
-  3DS Maker v2.0 (Pre-release)
+  3DS Maker v0.9 (Pre-release)
   JumpForge 3DS is a Nintendo 3DS homebrew game-making toolkit with a touch-first level editor, multi-page sprite/animation studio, enemy tuning, and instant
   platformer test play.
 
